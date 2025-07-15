@@ -15,10 +15,10 @@ st.title("Access Score Map Explorer")
 # ────────────────────────────────
 
 # Load cleaned CSV
-final_results_cleaned = pd.read_csv('/Users/rsiddiq2/Downloads/llama-index/final_cleaned.csv')
+final_results_cleaned = pd.read_csv('final_cleaned.csv')
 
 # Load shapefile
-tracts_gdf = gpd.read_file("/Users/rsiddiq2/Downloads/llama-index/cb_2023_37_tract_500k.shp")
+tracts_gdf = gpd.read_file("cb_2023_37_tract_500k.shp")
 counties_of_interest = [
     "Brunswick County",
     "Carteret County",
