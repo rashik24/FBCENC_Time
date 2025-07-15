@@ -7,3 +7,4 @@ opencage
 python-dateutil
 geopy
 shapely
+matplotlib.pyplot
